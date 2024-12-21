@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Island of Personality</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="A05/assets/img/island.jpg" type="image/icon">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", sans-serif; }
+    .w3-row-padding img { margin-bottom: 12px; }
+    .w3-sidebar { width: 120px; background: #222; }
+    #main { margin-left: 120px; }
+    @media only screen and (max-width: 600px) { #main { margin-left: 0; } }
+    .island-bar { background-color: #f5f5f5; padding: 20px; border-radius: 10px; }
+    .island-bar h4 { font-size: 1.5rem; }
+    .island-bar p { font-size: 1rem; color: #555; }
+    .projects { border-radius: 2.25rem;
+                flex-direction: column;
+                padding: 1.5rem;
+                display: flex;
+                text-decoration: none;
+            }
+    .project-card {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      transition: transform 0.2s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .project-card h3 { margin-top: 0; }
+  </style>
+</head>
+<body class="w3-black">
+
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <img src="A05/assets/img/sheena.png" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PHOTOS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <div class="w3-padding-large" id="main">
+
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo">Welcome to the Island of Personality</h1>
+      <p>Discover the unique islands that shape our individuality</p>
+      <img src="A05/assets/img/island.jpg" alt="island" class="w3-image" width="992" height="1108">
+    </header>
+
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">SHEENA ROM</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p> Hello! I’m Sheena Rom, a 4th-year BS Information Technology student at the Polytechnic
+        University of the Philippines (PUP) UI/UX design is something you find fascinating because it combines creativity with functionality,
+        making digital experiences both visually appealing and user-friendly.</p>
+      <section id="projects" class="w3-padding-16 w3-text-light-grey">
+        <h2 class="w3-text-light-grey">My Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-row-padding">
+      
+          <div class="w3-col m6 l4">
+            <div class="project-card">
+              <h3 class="w3-text-black">Activity 5</h3>
+              <p class="w3-opacity w3-text-black">Island of Personality</p>
+              <a href="#" class="w3-button w3-black w3-margin-top">View</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Explore the Islands</h3>
+      <div class="w3-row-padding">
+        <div class="w3-col m6 l3">
+          <div class="island-bar">
+            <h4>Family Island</h4>
+            <p>This island represents the love, support, and connections I have with my family. It is a place where memories are created and cherished.</p>
+          </div>
+        </div>
+        <div class="w3-col m6 l3">
+          <div class="island-bar">
+            <h4>Friendship Island</h4>
+            <p>This island holds the friendships I value. It’s where laughter, trust, and shared experiences build lasting bonds.</p>
+          </div>
+        </div>
+        <div class="w3-col m6 l3">
+          <div class="island-bar">
+            <h4>Travel Island</h4>
+            <p>This island represents the joy of exploration and adventure. It holds memories of new places and experiences.</p>
+          </div>
+        </div>
+        <div class="w3-col m6 l3">
+          <div class="island-bar">
+            <h4>Sports Island</h4>
+            <p>Sports teach discipline, teamwork, and perseverance. This island represents my passion for physical activity and sportsmanship.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w3-padding-64 w3-content" id="photos">
+      <h2 class="w3-text-light-grey">Personalities Photos</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="A05/assets/img/Family1.jpeg" style="width:100%">
+          <img src="A05/assets/img/Family2.jpeg" style="width:100%">
+          <img src="A05/assets/img/Family3.jpeg" style="width:100%">
+        </div>
+        <div class="w3-half">
+          <img src="A05/assets/img/Nclcian.jpeg" style="width:100%">
+          <img src="A05/assets/img/Annepunan.jpeg" style="width:100%">
+          <img src="A05/assets/img/Badjao.jpg" style="width:100%">
+        </div>
+        <div class="w3-half">
+          <img src="A05/assets/img/Japan.jpg" style="width:100%">
+          <img src="A05/assets/img/Siargao.jpg" style="width:100%">
+          <img src="A05/assets/img/Korea.jpg" style="width:100%">
+        </div>
+        <div class="w3-half">
+          <img src="A05/assets/img/Player.jpg" style="width:100%">
+          <img src="A05/assets/img/Basketball.jpeg" style="width:100%">
+          <img src="A05/assets/img/Volleyball.jpeg" style="width:100%">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> MMRC San Bartolome Santo Tomas Batangas</p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 09924278268</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: sheenarom27@gmail.com</p>
+      </div><br>
+      <p>Let's connect and discuss the wonderful islands that make us who we are:</p>
+
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">&copy; 2024 Sheena D. Rom. All rights reserved. <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+      </footer>
+    </div>
+
+  </div>
+
+</body>
+</html>
