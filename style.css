@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.section {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+#home {
+  background-color: #fff;
+  padding: 100px 0;
+  min-height: 100vh;
+}
+
+.profile-img-large {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.aboutProfile {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #111;
+}
+
+.projects {
+  background: linear-gradient(135deg, #ffd1dc, #ff69b4);
+}
+
+.title {
+  color: #111;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.info-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.btn-primary {
+  background-color: #111;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+}
+
+.about {
+  border-top: 2px solid #b5b3b5;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.card {
+  border-radius: 2.25rem;
+  flex-direction: column;
+  padding: 1.5rem;
+  display: flex;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.3rem;
+  border-radius: 1.5rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  #home {
+    padding-top: 4rem;
+  }
+}
